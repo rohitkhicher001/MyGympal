@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/squats"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SQUATS"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 16 reps "
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playsquats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="squats"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/backwardlunge"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BACKWARD LUNGE"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 16 reps "
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playbackwardlunge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="backwardlunge"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/sidehops"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIDE HOPS"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 16 reps "
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playsidehops"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sidehops"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/wallcalfraises"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WALL CALF RAISES"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 16 reps "
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playcalfraises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="calfraises"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/leftquadstretch"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LEFT QUAD STRETCH"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 16 reps "
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playleftquadstretch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="leftquadstretch"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/rightquadstretch"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RIGHT QUAD STRETCH"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 16 reps "
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playrightquadstretch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="rightquadstretch"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/sidelyingleftlift"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIDE LYING LEFT LIFT"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 16 reps "
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playsidelyingleftlift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sidelyingleftlift"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/sidelyingrightlift"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIDE LYING RIGHT LIFT"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 16 reps "
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playsidelyingrightlift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sidelyingrightlift"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+    </LinearLayout>
+</ScrollView>

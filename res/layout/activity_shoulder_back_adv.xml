@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/hyperextensions"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HYPER EXTENSIONS"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 30s"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playhyperextensions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="hyperextensions"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/pikepushups"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PIKE PUSHUPS"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 30s"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playpikepushups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="pikepushups"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/reversepushups"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REVERSE PUSHUPS"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 30s"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playreversepushups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="reversepushups"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/reversesnowangels"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REVERSE SNOW ANGELS"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 30s"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playreversesnowangels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="reversesnowangels"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/sidelyingfloorstretchleft"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIDE LYING FLOOR STRECTH LEFT"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 30s"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playsidelyingfloorstretchleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sidelyingfloorstretchleft"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/sidelyingfloorstretchright"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIDE LYING FLOOR STRETCH RIGHT"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 30s"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playsidelyingfloorstretchright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sidelyingfloorstretchright"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/squats"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SQUATS"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 16 reps "
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playsquats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="squats"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/glutekickbackright"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GLUTE KICK BACK RIGHT"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 16 reps "
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playglutekickbackright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="glutekickbackright"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/glutekickbackleft"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GLUTE KICK BACK LEFT"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 16 reps "
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playglutekickbackleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="glutekickbackleft"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/jumpingsquats"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JUMPING SQUATS"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 16 reps "
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playjumpingsquats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="jumpingsquats"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/lyingbutterflystretch"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LYING BUTTERFLY STRETCH"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 16 reps "
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playlyingbutterflystretch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="lyingbutterflystretch"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/wallcalfraises"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WALL CALF RAISES"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 16 reps "
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playcalfraises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="calfraises"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+
+
+    </LinearLayout>
+</ScrollView>

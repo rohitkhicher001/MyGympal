@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="serif"
+
+            android:padding="16dp"
+            android:text="CONTENTS"
+            android:textColor="#EC98EE"
+            android:textSize="40dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#F8E7E7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="20dp"
+            android:text="⦾  EXERCISES"
+            android:onClick="openTypes"
+            android:textColor="#E65656"
+            android:textSize="40dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="20dp"
+            android:text="⦾  MEAL PLAN"
+            android:textColor="#E65656"
+            android:textSize="40dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="20dp"
+            android:text="⦾  REMINDER"
+            android:textColor="#E65656"
+            android:textSize="40dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="20dp"
+            android:text="⦾  CALENDER"
+            android:textColor="#E65656"
+            android:textSize="40dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="20dp"
+            android:text="⦾  BMI CALCULATOR"
+            android:onClick="BMICAL"
+            android:textColor="#E65656"
+            android:textSize="40dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+
+    </LinearLayout>
+</ScrollView>

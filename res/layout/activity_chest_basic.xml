@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/jumpingjacks"
+                android:layout_height="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JUMPING JACKS"
+        android:textSize="20dp"
+        android:layout_gravity="right"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-black"/>
+
+
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 30s "
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/playjumpingjacks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="jumpingjacks"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+                android:layout_height="100dp"
+                android:id="@+id/incline"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INCLINE PUSH UPS"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 6 reps "
+            android:textSize="20dp"
+            android:textStyle="italic"/>
+        <Button
+            android:id="@+id/playinclinepushups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="inclinepushups"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+                android:layout_height="100dp"
+                android:id="@+id/pushups"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" PUSH UPS"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 4 reps "
+            android:textSize="20dp"
+            android:textStyle="italic"/>
+        <Button
+            android:id="@+id/playpushups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="pushups"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+                android:layout_height="100dp"
+                android:id="@+id/widearmpushups"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" WIDE ARM PUSH UPS"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 4 reps "
+            android:textSize="20dp"
+            android:textStyle="italic"/>
+        <Button
+            android:id="@+id/playwidearmpushups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="widearmpushups"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+                android:layout_height="100dp"
+                android:id="@+id/boxpushups"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" BOX PUSH UPS"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 4 reps "
+            android:textSize="20dp"
+            android:textStyle="italic"/>
+        <Button
+            android:id="@+id/playboxpushups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="boxpushups"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+                android:layout_height="100dp"
+                android:id="@+id/hindupushups"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" HINDU PUSH UPS"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 4 reps "
+            android:textSize="20dp"
+            android:textStyle="italic"/>
+        <Button
+            android:id="@+id/playhindupushups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="hindupushups"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <VideoView
+                android:layout_width="200dp"
+                android:layout_margin="5dp"
+                android:layout_height="100dp"
+                android:id="@+id/kneepushups"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" KNEE PUSH UPS"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:padding="12dp"
+            android:text="4 sets of 4 reps "
+            android:textSize="20dp"
+            android:textStyle="italic"/>
+        <Button
+            android:id="@+id/playkneepushups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="kneepushups"
+            android:layout_gravity="center_horizontal"
+            android:text="PLAY"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/cheststretch"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" CHEST STRETCH (20s)"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-black"/>
+        </LinearLayout>
+        </LinearLayout>
+
+
+
+</ScrollView>

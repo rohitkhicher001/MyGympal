@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B96E2">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:text="MUSCLE GROUP"
+            android:textColor="#00243D"
+            android:textSize="40dp"
+            android:textStyle="italic|bold" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#02111B" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="--> CHEST"
+            android:onClick="openChestbasic"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#02111B" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="--> ABS"
+            android:onClick="openAbsbasic"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#02111B" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:onClick="openShoulderBackBasics"
+            android:text="--> SHOULDER, BACK"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#02111B" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="--> LEGS"
+            android:onClick="openLegsbasic"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#02111B" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="--> ARMS"
+            android:onClick="openArmsbasic"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#02111B" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="TRAINING EACH BODY PART IS EQUALLY IMPORTANT TO PREVENT MUSCLE IMBALANCE!!"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</ScrollView>
